@@ -31,7 +31,7 @@ paths:
           text/plain:
             schema:
               type: string
-              example: "{hospital_b_patient_results {table_1 {sex, age}}"
+              example: "{hospital_a_patient_results {sex, age}}"
         required: true
 
       responses:
@@ -63,7 +63,7 @@ paths:
           text/plain:
             schema:
               type: string
-              example: "{hospital_b_patient_results {table_1 {sex, age}}"
+              example: "{hospital_a_patient_results {sex, age}}"
         required: true
 
       responses:
@@ -95,7 +95,7 @@ paths:
           text/plain:
             schema:
               type: string
-              example: "{hospital_b_patient_results {table_1 {sex, age}}"
+              example: "{hospital_a_patient_results {sex, age}}"
         required: true
 
       responses:
@@ -131,7 +131,7 @@ paths:
           text/plain:
             schema:
               type: string
-              example: "{hospital_b_patient_results {table_1 {sex, age}}"
+              example: "{hospital_a_patient_results {sex, age}}"
         required: true
 
       responses:
@@ -167,7 +167,7 @@ paths:
           text/plain:
             schema:
               type: string
-              example: "{hospital_b_patient_results {table_1 {sex, age}}"
+              example: "{hospital_a_patient_results {sex, age}}"
         required: true
 
       responses:
