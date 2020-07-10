@@ -46,7 +46,7 @@ paths:
           description: Not Implemented
       tags:
         - Selection API
-      operationId: validate-query
+      operationId: validate_query
   /selection/beacon:
     post:
       summary: Get a Beacon (T/F) for a specified data selection.
@@ -75,7 +75,7 @@ paths:
           description: Not Implemented
       tags:
         - Selection API
-      operationId: get-beacon-response
+      operationId: get_beacon_response
   /selection/select:
     post:
       summary: Perform a selection operation on a dataset.
@@ -106,7 +106,7 @@ paths:
           description: Not Found (404) - Dataset not found.
       tags:
         - Selection API
-      operationId: submit-selection-query
+      operationId: submit_selection_query
   /selection/preview:
     post:
       summary: Preview the results of a selection operation on a dataset.
@@ -142,7 +142,7 @@ paths:
           description: Not Implemented
       tags:
         - Selection API
-      operationId: get-preview
+      operationId: get_preview
   /selection/profile:
     post:
       summary: Get a profile of a selection operation on a dataset.
@@ -171,7 +171,7 @@ paths:
           description: Not Implemented
       tags:
         - Selection API
-      operationId: get-metrics
+      operationId: get_metrics
 components:
   schemas:
     selection_success:
