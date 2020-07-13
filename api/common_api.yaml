@@ -83,7 +83,7 @@ paths:
       requestBody:
         description: GraphQL Query
         content:
-          text/plain:
+          application/json:
             schema:
               $ref: '#/components/schemas/query'
         required: true
@@ -114,7 +114,7 @@ paths:
       requestBody:
         description: GraphQL Query
         content:
-          text/plain:
+          application/json:
             schema:
               $ref: '#/components/schemas/query'
         required: true
