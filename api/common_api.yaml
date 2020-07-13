@@ -200,6 +200,9 @@ components:
           $ref: '#/components/schemas/query_type'
         query:
           type: string
+      example:
+        type: 'graphql'
+        query: "{hospital_a_patient_results {sex, age}}"
     query_type:
       type: string
       title: query_type
